@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+  <Items>
+    <DictionaryData ID="Hello">
+      <Key>Hello</Key>
+      <Meaning>Xin chào</Meaning>
+      <Explaination>Từ mang ý nghĩa chào hỏi. Có thể dùng mỗi khi gặp một ai đó.</Explaination>
+    </DictionaryData>
+    <DictionaryData ID="Good bye">
+      <Key>Good bye</Key>
+      <Meaning>Chào tạm biệt</Meaning>
+      <Explaination>Từ mang ý nghĩa chào tạm biệt. Có thể dùng mỗi khi tạm biệt một ai đó.</Explaination>
+    </DictionaryData>
+  </Items>
