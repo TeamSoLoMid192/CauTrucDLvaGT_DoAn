@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<DictionaryItem>
+  <Items>
+    <DictionaryData>
+      <Key>hello</Key>
+      <Meaning>Xin chào</Meaning>
+    </DictionaryData>
+    <DictionaryData>
+      <Key>good bye</Key>
+      <Meaning>Chào tạm biệt</Meaning>
+    </DictionaryData>
+    <DictionaryData>
+      <Key>how kteam</Key>
+      <Meaning>how kteam</Meaning>
+    </DictionaryData>
+    <DictionaryData>
+      <Key>kter</Key>
+      <Meaning>Thành viên của kteam</Meaning>
+    </DictionaryData>
+    <DictionaryData>
+      <Key>howkteam.com</Key>
+      <Meaning>website howkteam.com</Meaning>
+    </DictionaryData>
+  </Items>
+</DictionaryItem>

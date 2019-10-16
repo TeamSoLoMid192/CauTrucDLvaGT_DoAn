@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <DictionaryData ID="hello">
+    <Key>hello</Key>
+    <Meaning>Xin chào</Meaning>
+  </DictionaryData>
+  <DictionaryData ID="good bye">
+    <Key>good bye</Key>
+    <Meaning>Chào tạm biệt</Meaning>
+  </DictionaryData>
+  <DictionaryData ID="7258927">
+    <Key>hello</Key>
+    <Meaning>Xin chào</Meaning>
+  </DictionaryData>
+  <DictionaryData ID="106327829">
+    <Key>good bye</Key>
+    <Meaning>Chào tạm biệt</Meaning>
+  </DictionaryData>
+  <DictionaryData ID="158516253">
+    <Key>how kteam</Key>
+    <Meaning>how kteam</Meaning>
+  </DictionaryData>
+  <DictionaryData ID="469698">
+    <Key>kter</Key>
+    <Meaning>Thành viên của kteam</Meaning>
+  </DictionaryData>
+  <DictionaryData ID="227192061">
+    <Key>howkteam.com</Key>
+    <Meaning>website howkteam.com</Meaning>
+  </DictionaryData>
+</Items>
