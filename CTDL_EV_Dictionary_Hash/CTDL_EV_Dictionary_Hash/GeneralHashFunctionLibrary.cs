@@ -59,9 +59,8 @@ namespace CTDL_EV_Dictionary_Hash
                     hash = ((hash ^ (test >> ThreeQuarters)) & (~HighBits));
                 }
             }
-            //MessageBox.Show(Convert.ToString(hash));
             return hash;
-        }
+        } // use this hash function
         /* End Of  P. J. Weinberger Hash Function */
 
 

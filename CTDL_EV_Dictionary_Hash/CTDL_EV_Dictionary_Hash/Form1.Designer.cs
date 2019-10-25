@@ -64,9 +64,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(357, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(231, 13);
+            this.label3.Size = new System.Drawing.Size(237, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Reload or Load new data from file\' data";
+            this.label3.Text = "Reload or Load new data from file\'s data";
             // 
             // LoadDataBT
             // 
@@ -103,17 +103,18 @@
             // 
             this.SpeakBt.BackgroundImage = global::CTDL_EV_Dictionary_Hash.Properties.Resources._72_512;
             this.SpeakBt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SpeakBt.Location = new System.Drawing.Point(630, 102);
+            this.SpeakBt.Location = new System.Drawing.Point(612, 102);
             this.SpeakBt.Name = "SpeakBt";
             this.SpeakBt.Size = new System.Drawing.Size(29, 27);
             this.SpeakBt.TabIndex = 3;
             this.SpeakBt.UseVisualStyleBackColor = true;
+            this.SpeakBt.Click += new System.EventHandler(this.SpeakBt_Click);
             // 
             // FindBt
             // 
             this.FindBt.BackgroundImage = global::CTDL_EV_Dictionary_Hash.Properties.Resources._68338637_372852576713634_5780177363597787136_n;
             this.FindBt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.FindBt.Location = new System.Drawing.Point(630, 46);
+            this.FindBt.Location = new System.Drawing.Point(630, 45);
             this.FindBt.Name = "FindBt";
             this.FindBt.Size = new System.Drawing.Size(30, 21);
             this.FindBt.TabIndex = 2;
@@ -151,7 +152,6 @@
             this.Name = "Intro";
             this.Text = "E-V Dictionary";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Intro_FormClosing);
-            this.Load += new System.EventHandler(this.Intro_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

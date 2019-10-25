@@ -43,6 +43,8 @@ namespace CTDL_EV_Dictionary_Hash
 
             object obj = xs.Deserialize(fs);
 
+            fs.Close();
+
             return obj;
         }
         #endregion

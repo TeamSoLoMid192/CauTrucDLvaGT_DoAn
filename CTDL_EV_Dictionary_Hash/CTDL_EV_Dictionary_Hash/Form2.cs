@@ -13,12 +13,16 @@ namespace CTDL_EV_Dictionary_Hash
 {
     public partial class AddWord : Form
     {
+        #region Field
         Intro form1 = new Intro();
+        #endregion
+        #region Constructor
         public AddWord()
         {
             InitializeComponent();
         }
-
+        #endregion
+        #region Method
         private void AddBt_Click(object sender, EventArgs e)
         {
             AddNewItem aN = new AddNewItem();
@@ -28,5 +32,6 @@ namespace CTDL_EV_Dictionary_Hash
                 this.Close();
             }
         }
+        #endregion
     }
 }
