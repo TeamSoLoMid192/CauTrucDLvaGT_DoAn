@@ -33,12 +33,12 @@ namespace CTDL_EV_Dictionary_Hash
             string idTemp = Convert.ToString(getHashCode(keyStr));
 
             XDocument data = XDocument.Load(DictionaryManager.filePath);
-            
+
             XElement findEl = data.Descendants("DictionaryData").Where(c => c.Attribute("ID").Value.Equals(idTemp)).FirstOrDefault();
 
             try
             {
-                if(idTemp == findEl.Attribute("ID").Value)
+                if (idTemp == findEl.Attribute("ID").Value)
                 {
                     if (keyStr != findEl.Element("Key").Value)
                     {
@@ -53,7 +53,7 @@ namespace CTDL_EV_Dictionary_Hash
                                     break;
                                 }
                             }
-                            if(flag)
+                            if (flag)
                             {
                                 XElement subDictionaryData = new XElement("SubDictionaryData", new XElement("Key", keyStr), new XElement("Meaning", meaningStr));
 

@@ -82,47 +82,52 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 74);
+            this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(0, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 15);
+            this.label2.Size = new System.Drawing.Size(197, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Meaning and Explaination";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 30);
+            this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 15);
+            this.label1.Size = new System.Drawing.Size(88, 17);
             this.label1.TabIndex = 4;
             this.label1.Text = "Search Bar";
             // 
             // SpeakBt
             // 
+            this.SpeakBt.BackColor = System.Drawing.SystemColors.Control;
             this.SpeakBt.BackgroundImage = global::CTDL_EV_Dictionary_Hash.Properties.Resources._72_512;
             this.SpeakBt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SpeakBt.ForeColor = System.Drawing.SystemColors.WindowText;
             this.SpeakBt.Location = new System.Drawing.Point(612, 102);
             this.SpeakBt.Name = "SpeakBt";
             this.SpeakBt.Size = new System.Drawing.Size(29, 27);
             this.SpeakBt.TabIndex = 3;
-            this.SpeakBt.UseVisualStyleBackColor = true;
+            this.SpeakBt.UseVisualStyleBackColor = false;
             this.SpeakBt.Click += new System.EventHandler(this.SpeakBt_Click);
             // 
             // FindBt
             // 
-            this.FindBt.BackgroundImage = global::CTDL_EV_Dictionary_Hash.Properties.Resources._68338637_372852576713634_5780177363597787136_n;
             this.FindBt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.FindBt.Location = new System.Drawing.Point(630, 45);
+            this.FindBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FindBt.Location = new System.Drawing.Point(600, 38);
             this.FindBt.Name = "FindBt";
-            this.FindBt.Size = new System.Drawing.Size(30, 21);
+            this.FindBt.Size = new System.Drawing.Size(60, 31);
             this.FindBt.TabIndex = 2;
+            this.FindBt.Text = "Search";
             this.FindBt.UseVisualStyleBackColor = true;
             this.FindBt.Click += new System.EventHandler(this.FindBt_Click);
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox1.Location = new System.Drawing.Point(3, 90);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
@@ -132,13 +137,13 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 46);
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(3, 40);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(621, 20);
+            this.textBox1.Size = new System.Drawing.Size(591, 27);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
-            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // Intro
             // 

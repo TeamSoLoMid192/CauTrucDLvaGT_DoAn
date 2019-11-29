@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddNewItem.cs" />
+    <Compile Include="CollisionDictionaryData.cs" />
     <Compile Include="DictionaryManager.cs" />
     <Compile Include="DictionaryData.cs" />
     <Compile Include="DictionaryItem.cs" />
@@ -63,6 +64,7 @@
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="GeneralHashFunctionLibrary.cs" />
+    <Compile Include="MtrDictionaryDataInRAM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Pronounce.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
