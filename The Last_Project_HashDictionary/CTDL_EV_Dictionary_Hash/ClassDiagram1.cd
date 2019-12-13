@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CTDL_EV_Dictionary_Hash.AddNewItem">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>AddNewItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.CollisionDictionaryData">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>CollisionDictionaryData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.DictionaryData">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DictionaryData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.DictionaryItem">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DictionaryItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.DictionaryManager" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAACAAAAEgAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DictionaryManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.Intro">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAQAAQACIAABgGAEGAAgACAAIAAEAAEQAQgQABggA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.AddWord">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABABAACACAAAACIAAAAAAEAAAAAQCAAAA=</HashCode>
+      <FileName>Form2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.GeneralHashFunctionLibrary">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAgAAACkIgIAAAQAAAAAAAACAEAAAAAAAA=</HashCode>
+      <FileName>GeneralHashFunctionLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.MtrDictionaryDataInRAM">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACBAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAgAI=</HashCode>
+      <FileName>MtrDictionaryDataInRAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.Program">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.Pronounce">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAIAgAAAAAAAAIAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Pronounce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.Properties.Resources">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAAABEAAEAQAAAAAAAAAAAAAAAsA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTDL_EV_Dictionary_Hash.Properties.Settings">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
