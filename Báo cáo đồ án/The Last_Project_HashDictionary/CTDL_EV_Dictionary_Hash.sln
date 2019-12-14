@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTDL_EV_Dictionary_Hash", "CTDL_EV_Dictionary_Hash\CTDL_EV_Dictionary_Hash.csproj", "{4CF52665-2923-407E-BE39-765495592633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CF52665-2923-407E-BE39-765495592633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF52665-2923-407E-BE39-765495592633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF52665-2923-407E-BE39-765495592633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF52665-2923-407E-BE39-765495592633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {405F6880-C07C-471C-BF37-9AD37660B0FA}
+	EndGlobalSection
+EndGlobal
